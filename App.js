@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, View } from 'react-native';
+
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 //import tables
@@ -8,8 +8,8 @@ import {SZL120} from "./src/tables/SZL120";
 import {SZL105} from "./src/tables/SZL105";
 import {SZL140} from "./src/tables/SZL140";
 import {SZL160} from "./src/tables/SZL160";
-import {SZB100} from "./src/tables/SZB100";
 import {SZP100} from "./src/tables/SZP100";
+import {SZB100} from "./src/tables/SZB100";
 
 
 const Drawer = createDrawerNavigator();
