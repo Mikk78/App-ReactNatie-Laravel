@@ -17,9 +17,10 @@ const styles =StyleSheet.create({
     justifyContent:'flex-end',
     backgroundColor:'white',
     paddingBottom:10,
+    fontSize:9,
   },
   navbarText:{
     color:'black',
-    fontSize:20,
+    fontSize:9,
   },
 })
