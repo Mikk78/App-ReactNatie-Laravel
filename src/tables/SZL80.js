@@ -7,6 +7,7 @@ export function SZL80({navigation}) {
   return (
     <View>
       <Navbar/>
+        <Text styl={styles.Text}>SZL105</Text>
       <Text style={styles.titleText}>SZL80</Text>
       <ScrollView horizontal={true} vertical={true}>
         <View style={styles.containerTable}>

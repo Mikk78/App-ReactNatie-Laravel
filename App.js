@@ -9,9 +9,7 @@ import {SZL105} from "./src/tables/SZL105";
 import {SZL140} from "./src/tables/SZL140";
 import {SZL160} from "./src/tables/SZL160";
 import {SZP100} from "./src/tables/SZP100";
-import {SZB100} from "./src/tables/SZB100";
-
-
+import {ExampleFive} from "./src/tables/SZB100";
 const Drawer = createDrawerNavigator();
 
 export default function App() {
@@ -21,7 +19,7 @@ export default function App() {
         <Drawer.Screen name="SZL80" component={SZL80}/>
         <Drawer.Screen name="SZL120" component={SZL120}/>
         <Drawer.Screen name="SZP100" component={SZP100}/>
-        <Drawer.Screen name="SZB100" component={SZB100}/>
+        <Drawer.Screen name="SZB100" component={ExampleFive}/>
         <Drawer.Screen name="SZL140" component={SZL140}/>
         <Drawer.Screen name="SZL160" component={SZL160}/>
         <Drawer.Screen name="SZL105" component={SZL105}/>

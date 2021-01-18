@@ -4,14 +4,14 @@ import { View,Text,StyleSheet} from 'react-native'
 export const SZL105 = () =>{
   return(
     <View>
-      <Text styl={styles.Text}>SZL105</Text>
+      <Text styl={styles.TextTitle}>SZL105</Text>
     </View>
   )
 }
 
 
 const styles =StyleSheet.create({
-  Text:{
+  TextTitle:{
     color:'black',
     fontSize:20,
     height:70,
